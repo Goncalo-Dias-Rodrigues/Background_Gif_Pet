@@ -1,25 +1,25 @@
 import java.util.List;
 
 public class AnimatedOverlay {
-    
-    public AnimatedOverlay(List<String> caminhosFrames, int x, int y,
-                           int velocidadeMs, double fatorEscala){
+
+    public AnimatedOverlay(List<String> framePath, int x, int y,
+                           int speedMS, double scaleFactor){
 
     }
 
-    private void carregarFrames(List<String> caminhosFrames, double fatorEscala){
+    private void loadFrames(List<String> framePath, double scaleFactor){
 
     }
 
-    private void configurarJanela(int x, int y){
+    private void windowConfig(int x, int y){
 
     }
 
-    private void iniciarAnimacao(int velocidadeMs){
+    private void startAnimation(int speedMS){
 
     }
 
-    private void proximoFrame(){
+    private void nextFrame(){
 
     }
 
